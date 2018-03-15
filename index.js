@@ -21,3 +21,12 @@ function exactMatch(obj, search) {
     }
   )
 }
+
+function exactMatchToList(obj, search) {
+  let ex = exactMatch(obj, search)
+  ex.map(
+    function (driver) {
+      return driver.name
+    }
+  )
+}
