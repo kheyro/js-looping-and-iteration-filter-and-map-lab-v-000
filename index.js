@@ -9,5 +9,6 @@ function driverNamesWithRevenueOver(obj, rev) {
   return newObj.map(
     function (driver) {
       return driver.name
-    })
+    }
+  )
 }
